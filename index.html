@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="dark">
+
+
+
+<!-- Mirrored from impulse.fisat.ac.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 05:09:54 GMT -->
+<head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="shortcut icon" href="assets/img/icons/Droid3.png" type="image/x-icon" />
+  <title>DROID 3.0 | READY TO LANUCH</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="theme-color" content="#000">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+  <link rel="manifest" href="assets/icon/site.webmanifest">
+  <link rel="mask-icon" href="assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/icon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="assets/icon/browserconfig.xml">
+
+
+
+  <!-- AJAX library for Contact Form -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/styleNew_4.css" rel="stylesheet">
+  <link href="assets/css/splash.css" rel="stylesheet">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ieee.fisat.ac.in/droid/">
+  <meta property="og:title" content="Droid 2.0">
+  <meta property="og:description" content="National Conclave on Robotics.">
+  <meta property="og:image" content="https://ieee.fisat.ac.in/droid/assets/img/fav.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ieee.fisat.ac.in/droid/">
+  <meta property="twitter:title" content="Droid 2.0">
+  <meta property="twitter:description" content="National Conclave on Robotics.">
+  <meta property="twitter:image" content="https://ieee.fisat.ac.in/droid/assets/img/fav.png">
+
+</head>
+
+<body>
+  <!-- <video autoplay muted loop id="video1">
+    <script>
+        var video = document.getElementById("video1");
+        video.autoplay = true;
+        video.loop = true;           
+        video.play();
+        video.removeAttribute("controls");
+      </script>
+    <source src="./assets/img/icons/droidbg.mp4" type="video/mp4">
+</video> -->
+
+  <audio id="first-audio">
+    <source src="./assets/sounds/1.wav" type="audio/wav">
+  </audio>
+  <audio id="jarvis-audio">
+    <source src="./assets/sounds/jarvis.ogg" type="audio/ogg">
+  </audio>
+  <audio id="button-audio">
+    <source src="./assets/sounds/last.wav" type="audio/wav">
+  </audio>
+  <audio id="close-audio">
+    <source src="./assets/sounds/close.wav" type="audio/wav">
+  </audio>
+  <audio id="move-audio">
+    <source src="./assets/sounds/move.wav" type="audio/wav">
+  </audio>
+
+  
+  <div id="video-container">
+    <video autoplay muted loop id="video1">
+      <script>
+          var video = document.getElementById("video1");
+          video.autoplay = true;
+          video.loop = true;           
+          video.play();
+          video.removeAttribute("controls");
+        </script>
+      <source src="./assets/video/bg.mp4" type="video/mp4">
+    </video>
+      <section id="hero" class="d-flex align-items-center">
+     
+        <div class="row hero-sec">
+           
+    
+          <div class="col-lg-6 container" data-aos="zoom-out" data-aos-delay="100">
+            <h1>DROID 3.0 <span style="color: #fff;">🤖</span></h1>
+            <h2 id="typeit">NATIONAL CONCLAVE ON ROBOTICS</h2>
+            <h3 style="color:#fff" class="font-weight-bold">April 21<sup>st</sup>, 22<sup>nd</sup> & 23<sup>rd</sup></h3>
+            <a style="text-decoration: none;" onclick="playAudiobtn()" href="./index2.html">
+              <span>LAUNCH !!</span>
+              <div onclick="playAudiobtn()" class="liquid"></div>
+              <script>
+               var audio1 = document.getElementById("move-audio");
+                function playAudiobtn() {
+                  audio1.play();
+                }
+              </script>
+            </a>
+          </div>
+    
+          <div class="col-lg-6 avatar" data-aos="fade-right" data-aos-delay="100">
+            <img onclick="playAudio()" src="./assets/img/icons/robo_new.png" class="img-fluid hero-img" alt="">
+            <script>
+              var audio = document.getElementById("jarvis-audio");
+              function playAudio() {
+                audio.play();
+              }
+            </script>
+          
+          </div>
+    
+        </div>
+    
+    
+      </section>
+  </div>
+
+</body>
+
+</html>
